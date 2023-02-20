@@ -10,7 +10,7 @@ public class Retangulo {
     
     void imprimir(){
         System.out.println("Base de retangulo: " + this.base);
-        System.out.println("Base de retangulo: " + this.altura);
+        System.out.println("Altura de retangulo: " + this.altura);
         
         if (base == 0 || altura == 0){
             inserirValores();
